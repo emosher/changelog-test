@@ -20,5 +20,8 @@
     "grunt": "^0.4.5",
     "grunt-bump": "0.0.15",
     "grunt-conventional-changelog": "^1.1.0"
+  },
+  "dependencies": {
+    "express": "^4.9.0"
   }
 }
