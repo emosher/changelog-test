@@ -29,5 +29,7 @@ module.exports = function ( grunt ) {
       }
     }
   });
+
+  grunt.registerTask('release', 'Increments the minor version and creates a changelog', ['bump:minor', 'changelog']);
   
 }
